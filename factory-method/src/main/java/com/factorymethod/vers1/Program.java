@@ -10,13 +10,11 @@ public class Program {
     Developer developer = developerFactory.createDeveloper();
     developer.writeCode();
   }
-
   /**
    *   Приложение создает определенныую фабрику в зависимости от выбора пользователя,
    *   кофигурации или окружения
    */
   static DeveloperFactory createDeveloperBySpec(String spec) {
-
     if (spec.equalsIgnoreCase("java")) {
           return new JavaDeveloperFactory();
     } else if(spec.equalsIgnoreCase("c++")) {
