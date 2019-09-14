@@ -1,4 +1,4 @@
-package com.Adapter;
+package com.Adapter.vars1;
 
 public class AdapterJavaToDatabase extends JavaApp implements Database {
 
