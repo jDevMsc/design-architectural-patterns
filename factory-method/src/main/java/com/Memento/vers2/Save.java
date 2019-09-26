@@ -1,4 +1,4 @@
-package Memento.vers2;
+package com.Memento.vers2;
 
 public class Save {
   private final String level;

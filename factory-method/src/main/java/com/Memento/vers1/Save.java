@@ -1,4 +1,4 @@
-package Memento.vers1;
+package com.Memento.vers1;
 
 import java.util.Date;
 

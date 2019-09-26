@@ -1,8 +1,8 @@
-package Memento.vers2;
+package com.Memento.vers1;
 
-public class File {
+public class GitHubRepositury {
 
-  Save save;
+  private Save save;
 
   public Save getSave() {
     return save;
