@@ -26,7 +26,6 @@ public class JavaDeveloperJobSite implements Observed{
   @Override
   public void removeObserver(Observer observer) {
     this.subscribers.remove(observer);
-
   }
 
   @Override
