@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/design-architectural-patterns.iml" filepath="$PROJECT_DIR$/.idea/design-architectural-patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/factory-method/factorymethod.iml" filepath="$PROJECT_DIR$/factory-method/factorymethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patterns/factorymethod.iml" filepath="$PROJECT_DIR$/patterns/factorymethod.iml" />
     </modules>
   </component>
 </project>
