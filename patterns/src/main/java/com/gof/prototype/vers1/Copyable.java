@@ -1,4 +1,4 @@
-package com.gof.prototype;
+package com.gof.prototype.vers1;
 
 public interface Copyable {
 

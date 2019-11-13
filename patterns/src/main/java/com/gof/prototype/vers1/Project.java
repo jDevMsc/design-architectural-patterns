@@ -1,4 +1,4 @@
-package com.gof.prototype;
+package com.gof.prototype.vers1;
 
 public class Project implements  Copyable {
   private int id;
