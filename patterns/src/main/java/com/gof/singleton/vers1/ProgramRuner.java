@@ -1,4 +1,4 @@
-package com.gof.singleton;
+package com.gof.singleton.vers1;
 
 public class ProgramRuner  {
 
