@@ -3,15 +3,25 @@ package com.gof.singleton.vers2;
 public class Singleton {
 
   public static int counter = 0;
-  private static Singleton instance;
+  private static volatile Singleton instance;
 
   private Singleton() {
     counter++;
   }
 
-  public static Singleton getInstance() {
+//  public static synchronized Singleton getInstance() {
+//    if(instance == null) {
+//      instance = new Singleton();
+//    }
+//    return  instance;
+//  }
+  public static  Singleton getInstance() {
     if(instance == null) {
-      instance = new Singleton();
+      synchronized (Singleton.class) {
+        if(instance == null) {
+          instance = new Singleton();
+        }
+      }
     }
     return  instance;
   }
