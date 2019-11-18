@@ -5,7 +5,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 /**
- * Pattrn produce-consumer implemented throught BlockingQueue
+ * Pattrn produce-consumer implemented through BlockingQueue
  */
 public class Test {
 
