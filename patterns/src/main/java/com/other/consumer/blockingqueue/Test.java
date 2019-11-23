@@ -4,10 +4,10 @@ import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-/**
+
+public class Test {/**
  * Pattrn produce-consumer implemented through BlockingQueue
  */
-public class Test {
 
   private static BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(10);
 
