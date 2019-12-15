@@ -1,7 +1,7 @@
-Принцип инверсии зависимостей
+Dependency Inversion Principle
 
 
-Cлужит для создания слабосвязанных сущностей, которые легко тестировать, модифицировать и обновлять.
-Этот принцип можно сформулировать следующим образом:
- - Модули верхнего уровня не должны зависеть от модулей нижнего уровня. И те и другие должны зависеть от абстракций.
- - Абстракции не должны зависеть от деталей. Детали должны зависеть от абстракций.
+It is used to create loosely coupled entities that are easy to test, modify and update.
+This principle can be formulated as follows:
+  - Top-level modules must not depend on lower-level modules. Both those and others should depend on abstractions.
+  - Abstractions should not depend on the details. Details should depend on abstractions.

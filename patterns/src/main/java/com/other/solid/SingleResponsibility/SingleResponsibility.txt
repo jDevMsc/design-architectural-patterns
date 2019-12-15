@@ -1,27 +1,19 @@
-Каждый объект должен иметь одну ответственность и эта ответственность должна быть полностью инкапсулирована в класс.
-Все его поведения должны быть направлены исключительно на обеспечение этой ответственности.
+Each object must have one responsibility, and this responsibility must be fully encapsulated in the class.
+All his behavior should be directed exclusively to ensure this responsibility.
 
-==================Сигнал
-1) Если при изменении кода, отвечающего за одну ответственность,
-в приложении появляются исправления кода, отвечающего за другую ответственность, то это первый сигнал .
-2) объекту класса становится позволительно слишком много;
-3) Любое изменение логики поведения объекта приводит к изменениям в других местах приложения, где это не подразумевалось изначально;
-4) Невозможно легко отделить и применить класс в другой сфере приложения, так как это потянет ненужные зависимости.
-
-
-==================Пример
-Класс, который составляет и печатает отчёт. Такой класс может измениться по двум причинам:
--  может измениться само содержимое отчёта
--  может измениться формат отчёта.
-Оба аспекта этих причин являются двумя разными ответственностями.
-Нужно разделить класс на два новых класса, для которых будет характерна только одна ответственность.
+Signal
+1) If, when changing the code responsible for one responsibility,
+in the application there are corrections to the code responsible for another responsibility, then this is the first signal.
+2) the class object is allowed too much;
+3) Any change in the logic of the object’s behavior leads to changes in other places of the application, where this was not originally intended;
+4) It is not possible to easily separate and apply the class in another area of ​​the application, as this will pull unnecessary dependencies.
 
 
-==================Причина
-Если произошло изменение в процессе составления отчёта — есть большая вероятность, что в негодность придёт код, отвечающий за печать.
+Cause
+If there is a change in the process of compiling the report, there is a high probability that the code responsible for printing will become unusable.
 
 
-==================Исключения
-1) Объединение ответственностей является общепринятой практикой и в этом нет ничего плохого, до тех пор пока это легко обслуживать.
-2) Следование принципу единственной ответственности зависит от функций программного продукта и является труднейшим при проектировании приложений
-3) Если же изменения кода, отвечающего за одну ответственность, не вносят изменения в код, отвечающий за другую ответственность, то этот принцип можно не применять.
+Exceptions
+1) Pooling responsibilities is a common practice and there is nothing wrong with that as long as it is easy to maintain.
+2) Following the principle of sole responsibility depends on the functions of the software product and is the most difficult when designing applications
+3) If, however, changes to the code responsible for one responsibility do not change the code responsible for another responsibility, then this principle can not be applied.

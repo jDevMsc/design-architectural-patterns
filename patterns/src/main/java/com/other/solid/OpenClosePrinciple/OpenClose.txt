@@ -1,19 +1,15 @@
-Принцип открытости - закрыточти
+The principle of openness - close
 
-Классы открыты для расширения: означает, что поведение сущности может быть расширено путём создания новых типов сущностей
-Классы закрыты для изменения: в результате расширения поведения сущности, не должны вноситься изменения в код, который эта сущность использует.
+Classes are open for extension: means that the behavior of an entity can be expanded by creating new types of entities
+Classes are closed for change: as a result of the expansion of the behavior of an entity, no changes should be made to the code that this entity uses.
 
-Система должна быть построена таким образом, что все ее последующие изменения должны быть реализованы с помощью добавления нового кода, а не изменения уже существующего.
-
-
-==================Пример
-Класс повар который (метод)готовит картошку. Если хотим добавить функционал, не должны измениять повара.
-Например исп. паттерн стратегия для создания разных видов еды
-Cook bob = new Cook();
-bob.MakeDinner(new PotatoMeal());
-bob.MakeDinner(new SaladMeal());
-Закрыто на изменения, но расширяема с помощью интерфейса
+The system should be built in such a way that all its subsequent changes should be implemented by adding new code, and not changing existing ones.
 
 
-
-
+Example
+Class a cook who (method) cooks potatoes. If we want to add functionality, do not have to change the cook.
+For example, Spanish. pattern strategy for creating different types of food
+Cook bob = new Cook ();
+bob.MakeDinner (new PotatoMeal ());
+bob.MakeDinner (new SaladMeal ());
+Closed for changes, but extensible using the interface

@@ -1,47 +1,27 @@
-Принцип подстановки Лисков
+Lisk substitution principle
 
-Представляет собой некоторое руководство по созданию иерархий наследования.
+Provides some guidance on creating inheritance hierarchies.
 
-Методы, которые используют базовый тип, должны иметь возможность использовать подтипы базового типа, не зная об этом.
- или
-Должна быть возможность вместо базового типа подставить любой его подтип.
-
-
-Цель:=================
-Помогает четче сформулировать иерархию классов, определить функционал для базовых и производных классов и избежать возможных проблем при применении полиморфизма.
+Methods that use the base type should be able to use subtypes of the base type without knowing it.
+ or It should be possible to substitute any subtype of the base type.
 
 
-
-Пример:===============
-Прямоугольник наследуется от квадрата и и главный метод работает с ним, при подстановке в гл. метод квадрата, изменяется поведение, и оно выззовет не стандартное поведение.
-public static void Main(string[] args)
-    {
-        Rectangle rect = new Square();
-        TestRectangleArea(rect);
-
-    }
-
-    public static void TestRectangleArea(Rectangle rect)
-    {
-        rect.Height = 5;
-        rect.Width = 10;
-        if (rect.GetArea() != 50)
-            throw new Exception("Некорректная площадь!"); квадрат будет здесь вести себя по своему, но можно сделать проверку по типу(WRONG)
-
-    }
+Goal:
+It helps to clearly formulate the hierarchy of classes, determine the functionality for base and derived classes and avoid possible problems when applying polymorphism.
 
 
-Правила:==================
-  Предусловия (Preconditions) не могут быть усилены в подклассе.
-  Другими словами подклассы не должны создавать больше предусловий, чем это определено в базовом классе, для выполнения некоторого поведения
-  Предусловия представляют набор условий, необходимых для безошибочного выполнения метода
+Rules:
+  Preconditions cannot be strengthened in a subclass.
+  In other words, subclasses should not create more preconditions than what is defined in the base class to perform some behavior
+  Preconditions represent a set of conditions necessary for error-free execution of a method
 
-  Постусловия (Postconditions) не могут быть ослаблены в подклассе. То есть подклассы должны выполнять все постусловия, которые определены в базовом классе.
+  Postconditions cannot be relaxed in a subclass. That is, subclasses must fulfill all postconditions that are defined in the base class.
 
-  Инварианты (Invariants) — все условия базового класса - также должны быть сохранены и в подклассе
+  Invariants - all conditions of the base class - must also be stored in a subclass
 
 
-Решение:=======================
-  Проблема решается в общем случае с помощью абстрагирования и выделения общего функционала.
-  То есть не один из них наследуется от другого, а оба они наследуются от одного общего класса.
-  Таким образом, принцип подстановки Лисков заставляет задуматься над правильностью построения иерархий классов и применения полиморфизма, позволяя уйти от ложных иерархий наследования и делая всю систему классом более стройной и непротиворечивой.
+Solution:
+  The problem is solved in the general case with the help of abstracting and highlighting the general functionality.
+  That is, not one of them inherits from the other, but both of them inherit from one common class.
+  Thus, the Liskov substitution principle makes you think about the correctness of constructing class hierarchies and applying polymorphism,
+allowing you to get away from false inheritance hierarchies and making the whole system a class more coherent and consistent.

@@ -1,19 +1,13 @@
-Принцип разделения интерфейса
+Interface separation principle
 
-Клиенты не должны вынужденно зависеть от методов, которыми не пользуются. (слишком раздутый интерфейс, не все методы и свойства которого используются и могут быть востребованы)
+Clients should not be forced to depend on methods that are not used. (too bloated interface, not all methods and properties of which are used and can be claimed)
 
-
-
-
-Причина:=================
-При нарушении этого принципа клиент, использующий  интерфейс , зависит от методов, которыми не пользуется, и поэтому  восприимчив к изменениям в этих методах.
-В итоге жесткая зависимость зависимости между различными частями интерфейса, которые могут быть не связаны при его реализации
+Reason:
+If this principle is violated, the client using the interface depends on methods that it does not use, and therefore is susceptible to changes in these methods.
+As a result, there is a rigid dependence of the relationship between different parts of the interface that may not be connected during its implementation
 
 
-
-
-Решение:=================
-Интерфейс класса разделяется на отдельные части, которые составляют раздельные интерфейсы.
-Затем эти интерфейсы независимо друг от друга могут применяться и изменяться.
-В итоге применение принципа разделения интерфейсов делает систему слабосвязанной, и тем самым ее легче модифицировать и обновлять.
-
+Solution:
+The class interface is divided into separate parts that make up separate interfaces.
+Then these interfaces can be applied and changed independently of each other.
+As a result, the application of the principle of separation of interfaces makes the system loosely coupled, and thus it is easier to modify and update.
