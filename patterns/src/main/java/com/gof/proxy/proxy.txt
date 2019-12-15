@@ -1,6 +1,3 @@
-Цель
+purpose
 
-Для замещения другого оъекта и контроля доступа к нему
-
-
-
+To replace another object and control access to it

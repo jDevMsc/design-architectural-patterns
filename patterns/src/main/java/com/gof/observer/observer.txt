@@ -1,6 +1,5 @@
-Наблюдатель
+Observer
 
-Определение зависимости один ко многим между объектами
+Defining a one to many relationship between objects
 
-Определение зависимости таким обюразом, чтобы при обновлении одного объекта, все
-зависящие от него были уведомлены и обновились
+Defining the dependency in such a way that when updating one object, all those dependent on it are notified and updated

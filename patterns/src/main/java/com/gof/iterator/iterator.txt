@@ -1,6 +1,6 @@
-Итератор
+Iterator
 
-Получение последовательного доступа ко всем элементам состовного объекта, скрывая его реализацию
+Getting sequential access to all elements of a composite object, hiding its implementation
 
-- различные виды обходов
-- упрощенный доступ к составному объекту
+- various types of detours
+- simplified access to a compound object

@@ -1,4 +1,3 @@
-Visitor Посетитель
+Visitor
 
-Описание действий которые выполняются с каждым объектом в некоторой структуре
-
+Description of actions that are performed with each object in some structure

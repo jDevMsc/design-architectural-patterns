@@ -1,7 +1,6 @@
-Хранитель
+The keeper
 
-Сохранить внутренние состояние объекта за егоп ределы
+Save the internal state of the object beyond
 
-Для чего используется
-Фиксирование состояния объекта за его пределеами не нарушая инкапсуляцию и востановление объекта вв случае необходимости
-
+What is used for
+Fixing the state of an object beyond its limits without violating the encapsulation and restoration of the object, if necessary

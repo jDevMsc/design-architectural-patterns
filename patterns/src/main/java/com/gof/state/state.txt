@@ -1,4 +1,3 @@
-State [Состояние]
+State
 
-Управление поведениея объекта в зависимости от состояния
-
+Controlling the behavior of an object depending on state

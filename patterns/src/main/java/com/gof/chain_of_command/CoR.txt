@@ -1,11 +1,7 @@
-Цепочка ответственности:
+Chain of Responsibility:
 
-Цель:
-Передача запросов последовательно по цепочке обработчиков.Каждый решает
-передавать дальше или обработать самими.
+Purpose:
+Passing requests sequentially through a chain of handlers. Each decides to pass on or process it on their own.
 
-Зачем?
-Помогатет избежать привязки отправителя запроса к его получателю, что дает возмлжность
-обработать этот запрос несколькими объектами.
-
-Пример:
+What for?
+It will help to avoid binding the request sender to its recipient, which makes it possible to process this request with several objects.

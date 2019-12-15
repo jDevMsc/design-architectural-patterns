@@ -1,8 +1,8 @@
-Цель
-Поддержка множества множества объектов
+purpose
+Support for many, many objects
 
-Зачем
-Разделение, для поддержанимя многоих мелких объектов
+What for
+Separation to support many small objects
 
-Пример
--большую часть состояний можно вывести наружу
+Example
+- most of the conditions can be brought out

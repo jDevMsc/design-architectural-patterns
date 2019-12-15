@@ -1,10 +1,9 @@
-Strategy Стратегия
+Strategy Strategy
 
-Взаимозаменяемость семейства классов
+Class Family Interchangeability
 
-пример:
-- есть несколько классов долственных связей, которые отличаются поведением
-- необходимо иметь несколь ко вариантов поведения
-- в классе есть данные, о которых не должен знать клиент
-- с помощью условных операторов
-
+example:
+- there are several classes of kinship that differ in behavior
+- you must have several behaviors
+- the class contains data that the client should not know about
+- using conditional statements

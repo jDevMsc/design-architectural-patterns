@@ -1,5 +1,5 @@
-Команда
+Team
 
-Цель:
-Инкапсулирование запроса в объект
+Purpose:
+Encapsulating a request into an object
 

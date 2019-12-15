@@ -1,9 +1,8 @@
-Template Method  (Шаблонный метод)
+Template Method
 
-Определнеие основы кламма и создание возможности подклассам переопределять его части, не изменяя структуру в целом.
+Defining the foundations of a class and creating the ability for subclasses to redefine parts of it without changing the structure as a whole.
 
-Пример:
+Example:
 
-- управление расширением подклассов
-- решает проблему повторного копирования
-
+- managing extension of subclasses
+- solves the problem of re-copying

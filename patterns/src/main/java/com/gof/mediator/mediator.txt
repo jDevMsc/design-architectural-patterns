@@ -1,9 +1,9 @@
-Mediator (Посредник)
+Mediator (Mediator)
 
-Инкапсуляция способа взаимодействия объектов
+Encapsulating the way objects interact
 
-Для чего:
-Для определения объекта который инкапсулирует способ взаимодействия множес ва объектов и обеспечения слобой связи между этими объектами
+For what:
+To identify an object that encapsulates a way of interacting with many objects and providing a weak connection between these objects
 
--связи между объектами сложын и четко определены
--нельзя повтороно использовать объект, так как он обменивается информацией с другими пользователями
+-connections between objects are complex and clearly defined
+-You cannot reuse the object because it exchanges information with other users

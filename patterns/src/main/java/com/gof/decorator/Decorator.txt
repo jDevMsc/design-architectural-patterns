@@ -1,10 +1,10 @@
-Динамическое добавление новых обязанностей объекту.
+Dynamically adding new responsibilities to an object.
 
-Зачем:
-- альтернатива подклассов при расширении функциональности
+What for:
+- an alternative to subclasses when expanding functionality
 
-Пример
+Example
 
-- динамическое и понятное добавление фун-ла объектам
-- реализация обязанностей, которые могут быть сняты
-- расширение класса путем наследования  не возможно
+- dynamic and understandable addition of functionality to objects
+- implementation of obligations that may be withdrawn
+- extending a class by inheritance is not possible

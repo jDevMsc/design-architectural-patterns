@@ -1,8 +1,8 @@
-Цель:
-Предоставить пользователю унифицированный интерфейс вместо нескольких интерфесов подсистемы
+Purpose:
+Provide the user with a unified interface instead of several subsystem interfaces
 
-Зачем:
-Для определения интерфейса высокого уровня
+What for:
+To define a high-level interface
 
--изолирование клиентов от компонентов подсистемы
--необходимость ослабления связанности подсистем с клиентами
+-insulating clients from subsystem components
+-the need to weaken the connectivity of subsystems with customers
