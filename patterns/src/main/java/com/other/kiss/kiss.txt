@@ -1,4 +1,4 @@
-Смысл этого принципа программирования заключается в том,
-что стоит делать максимально простую и понятную архитектуру, не изобретать велосипед.
+The meaning of this programming principle is
+what it is worth doing the simplest and most understandable architecture, not reinvent the wheel.
 
-Сделать все как можно простым , но не проще.
+Make everything as simple as possible, but not easier.

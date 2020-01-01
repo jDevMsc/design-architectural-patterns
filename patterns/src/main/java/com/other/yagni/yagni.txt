@@ -1,14 +1,16 @@
-Вам это не понадобится» (YAGNI – you ain’t gonna need it)
+YAGNI – you ain’t gonna need it
 
-То что вы не задумывади в системе не должно появляться в коде.
-DRY  призвана уменьшать сложность, разделяя систему на управляемые компоненты,
-  в то время, как YAGNI уменьшает сложность, уменьшая количество этих компонент.
+The fact that you do not think in the system should not appear in the code.
 
-YAGNI похож на KISS – он старается делать вещи как можно проще.
-Но KISS старается искать простые решения, а YAGNI просто не делает никаких решений!
+DRY is designed to reduce complexity by dividing the system into manageable components,
+  while YAGNI reduces complexity by reducing the number of these components.
 
-Начиная планирование нового проекта, постарайтесь учесть следующее:
-- Достичь меньшей сложности путем уменьшения уровня абстракций
-- Разделить функционал от возможностей (features)
-- Учесть небольшие не-функциональные требования
-- Определить затратные по времени задачи, чтобы избавиться от них
+
+YAGNI is like KISS - it tries to make things as simple as possible.
+But KISS is trying to find simple solutions, and YAGNI just does not make any decisions!
+
+When planning a new project, try to consider the following:
+- Achieve less complexity by reducing the level of abstractions
+- Separate functionality from features
+- Take into account small non-functional requirements
+- Identify time-consuming tasks to get rid of them

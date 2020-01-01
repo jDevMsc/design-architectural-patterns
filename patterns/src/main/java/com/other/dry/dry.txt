@@ -1,21 +1,21 @@
-Don’t repeat yourself (не повторяйся) или DIE – Duplication Is Evil – дублирование это зло
-Нацелен на снижение повторения информации различного рода,
+Don’t repeat yourself or DIE – Duplication Is Evil
 
-Нарушение DRY - WET — «Write Everything Twice» (рус. Пиши всё по два раза)[5] или «We enjoy typing» (Нам нравится печатать)
+It is aimed at reducing the repetition of information
 
-Знание - часть  бизнес-логики или алгоритма.
-Дублирование знания всегда является нарушением принципа DRY.
-Дублирование кода не обязательно является нарушением принципа DRY.
+Violation of DRY - WET — «Write Everything Twice» or «We enjoy typing»
+
+Knowledge is part of a business logic or algorithm.
+Duplication of knowledge is always a violation of the DRY principle.
+Code duplication is not necessarily a violation of the DRY principle.
 
 
+Exception - caveats: ========================
 
-Исключение - предостережения:=======================
+You should not apply DRY if the business logic does not yet contain any duplication, if you apply DRY to something,
+that is used only once, you may find yourself in a situation of premature optimization.
 
-Не стоит применять DRY, если  бизнес-логика ещё не содержит никаких дублирований, если применять DRY к чему-то,
-что используется только один раз, то можно оказаться в ситуации преждевременной оптимизации.
+If you start to abstract something, because “later it may be needed”, then do not do this.
+We will spend time abstracting that which may then never be claimed.
 
-Если вы начинаете что-то абстрагировать, потому что «позже это может понадобиться», то не надо так делать.
-Потратим время на абстрагирование того, что потом может быть никогда не востребовано.
-
-Многократное использование кода и дублирование кода — разные вещи.
-DRY гласит, что не нужно дублировать знания, а не что нужно всегда делать код многократно используемым.
+Code reuse and code duplication are two different things.
+DRY says that you don’t need to duplicate knowledge, and not that you always need to make the code reusable.
