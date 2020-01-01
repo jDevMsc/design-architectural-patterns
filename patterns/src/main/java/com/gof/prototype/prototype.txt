@@ -1,0 +1,6 @@
+Prototype
+
+Sets the types of created objects using the prototype instance and creates new objects by copying this prototype
+
+The pattern is used to avoid additional efforts to create an object in a standard way - meaning the use of the constructor
+It is used when the system does not care how exactly products are created, assembled and presented in it.

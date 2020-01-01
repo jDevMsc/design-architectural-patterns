@@ -1,0 +1,4 @@
+Composite
+
+The pattern defines a hierarchy of classes that can simultaneously consist of primitive and complex objects,
+simplifies the client architecture, makes the process of adding new types of objects easier.

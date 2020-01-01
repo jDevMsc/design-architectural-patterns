@@ -1,0 +1,6 @@
+Adapter
+
+Design pattern that allows objects with incompatible interfaces to work together.
+
+The adapter provides for the creation of a wrapper class  with the required interface.
+The client works with an adapter that redirects the task to the original class

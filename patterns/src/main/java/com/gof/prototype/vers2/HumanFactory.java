@@ -7,9 +7,11 @@ public class HumanFactory {
   public HumanFactory(Human human) {
     setPrototype(human);
   }
+
   public void setPrototype(Human human) {
     this.human = human;
   }
+
   Human makeCopy() {
     return (Human)human.copy();
   }
