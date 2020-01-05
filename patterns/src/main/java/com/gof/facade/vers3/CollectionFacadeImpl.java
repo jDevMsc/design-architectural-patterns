@@ -1,5 +1,6 @@
 package com.gof.facade.vers3;
 
+import com.google.common.collect.Collections2;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
