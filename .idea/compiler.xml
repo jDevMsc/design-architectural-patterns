@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="design-architectural-patterns" target="8" />
+      <module name="design-architectural-patterns" target="1.5" />
       <module name="factorymethod" target="8" />
     </bytecodeTargetLevel>
   </component>
